@@ -1,17 +1,24 @@
 # cellora-landingpage
 
-Landing page estática para a Cellora — formulário de waitlist (Soil-to-Bottle).
+Landing page estática para a Cellora — Precision Viticulture & Smart Oenology (Soil-to-Bottle).
 
 ## Stack
 - HTML / CSS / JS puro, sem build step
-- Formulário: [Formspree](https://formspree.io) (free tier)
+- Formulário: [Formspree](https://formspree.io) (ID `xlgvqkda`)
 - Deploy: Vercel (estático, auto-deteção)
 
-## Setup
+## Conteúdo a personalizar
+Procurar e substituir conforme necessário:
+- `hello@cellora.org` — email de contacto no footer
+- `Viana do Castelo, Portugal` — morada/cidade (atualizar se mudar)
+- `href="#"` em links sociais (LinkedIn) e legais (Termos / Privacidade / Cookies)
+- Sub-páginas legais (atualmente são placeholders `#`) precisam de ficheiros próprios quando existirem
 
-1. Cria uma conta em https://formspree.io e um novo formulário com destino para o teu endereço Cellora (ex.: `hello@cellora.<dominio>`).
-2. Substitui `YOUR_FORMSPREE_ID` em `index.html` pelo ID do formulário (`https://formspree.io/f/<ID>`).
-3. (Opcional) Testa localmente: `python3 -m http.server 8000` → http://localhost:8000
+## Testar localmente
+```bash
+python3 -m http.server 8000
+# http://localhost:8000
+```
 
 ## Deploy no Vercel
 
