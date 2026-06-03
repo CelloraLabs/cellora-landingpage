@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 160">
+  <!-- Contorno -->
+  <path d="M60 20
+       C95 45 95 100 60 135
+       C25 100 25 45 60 20 Z" fill="none" stroke="#222" stroke-width="4" stroke-linejoin="round"></path>
+
+  <!-- Nervura principal -->
+  <path d="M60 20
+       L60 135" fill="none" stroke="#222" stroke-width="3"></path>
+
+  <!-- Nervura para o ponto superior direito -->
+  <path d="M60 78
+       Q68 68 79 58" fill="none" stroke="#222" stroke-width="2"></path>
+
+  <!-- Nervura para o ponto inferior esquerdo -->
+  <path d="M60 95
+       Q52 88 42 82" fill="none" stroke="#222" stroke-width="2"></path>
+
+  <!-- Pontos -->
+  <circle cx="78" cy="58" r="5" fill="#d27a5f"></circle>
+  <circle cx="41" cy="82" r="5" fill="#d27a5f"></circle>
+</svg>
